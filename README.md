@@ -14,7 +14,7 @@ Add your repository URL here
 
 Example:
 
-https://github.com/yourusername/nua-frontend-assignment
+https://github.com/Ayan-Frontend/Nua_Assessment
 
 ---
 
