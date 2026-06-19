@@ -1,0 +1,77 @@
+.container {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 3rem 1rem;
+  margin: 0 auto;
+}
+
+.mainImage {
+  width: 100%;
+  height: 500px;
+  background: white;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.thumbnails {
+  margin-top: 1rem;
+  display: flex;
+  gap: 10px;
+
+  img {
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.colors,
+.sizes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.colors button,
+.sizes button {
+  background: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  button {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.addBtn {
+  padding: 14px;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  color: white;
+  background: #111827;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
