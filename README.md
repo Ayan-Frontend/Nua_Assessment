@@ -16,6 +16,10 @@ Example:
 
 https://github.com/Ayan-Frontend/Nua_Assessment
 
+## Lighthouse Report
+
+/docs/Lighthouse_report.pdf
+
 ---
 
 ## Tech Stack
