@@ -23,7 +23,7 @@ const HeroBanner = () => {
       </div>
 
       <div className={styles.imageWrapper}>
-        <img src="/assets/shopping_banner.jpg" alt="Shopping" />
+        <img loading="lazy" src="/assets/shopping_banner.webp" alt="Shopping" />
       </div>
     </section>
   );

@@ -1,16 +1,104 @@
-# React + Vite
+# Nua Frontend Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
 
-Currently, two official plugins are available:
+Add your deployed URL here
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Example:
 
-## React Compiler
+https://nua-assignment-by-ayan.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## GitHub Repository
 
-## Expanding the ESLint configuration
+Add your repository URL here
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Example:
+
+https://github.com/yourusername/nua-frontend-assignment
+
+---
+
+## Tech Stack
+
+- React 18
+- React Router DOM
+- Context API
+- SCSS Modules
+- Vite
+- Fake Store API
+
+---
+
+## Features
+
+### Product Listing
+
+- Responsive product grid
+- Product image, title and price
+- Quick Add to Cart functionality
+
+### Product Detail
+
+- Product image gallery
+- Variant selection (color and size)
+- Low stock and sold out states
+- Quantity selection
+- Deep-linkable URL state
+
+### Cart
+
+- Cart drawer
+- Update quantity
+- Remove items
+- Subtotal and total calculation
+- Persistent cart using localStorage
+
+### Responsive Design
+
+- Mobile friendly
+- Tablet friendly
+- Desktop friendly
+
+---
+
+## Setup Instructions
+
+Clone the repository
+
+```bash
+git clone <repo-url>
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Build project
+
+```bash
+npm run build
+```
+
+---
+
+## Design Decisions
+
+- Context API and useReducer were used for global cart state management.
+- SCSS Modules were used to maintain component scoped styles.
+- Product variants were implemented locally because Fake Store API does not provide variant information.
+- Cart state is persisted using localStorage to survive page refreshes.
+
+---
+
+## Trade-offs
+
+- Fake Store API provides only one image per product, therefore thumbnail previews reuse the available image.
+- Product variants are mocked locally because the API does not provide inventory data.
